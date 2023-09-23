@@ -1,0 +1,11 @@
+<h3>{{ category }}</h3>
+<div class="scroll">
+  <div *ngFor="let movie of movieList" class="card">
+    <img
+      [src]="'https://image.tmdb.org/t/p/w500/' + movie['poster_path']"
+      alt=""
+      height="150"
+    />
+    <p>{{ movie["title"] }}</p>
+  </div>
+</div>

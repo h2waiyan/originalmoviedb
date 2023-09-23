@@ -1,0 +1,13 @@
+div.scroll {
+  display: flex;
+  flex-wrap: no-wrap;
+  overflow-x: auto;
+  margin: 20px;
+}
+
+.card {
+  min-width: 100px;
+  height: 200px;
+  margin-right: 10px;
+  background-color: #8e7171;
+}
